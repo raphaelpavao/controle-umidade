@@ -7,7 +7,7 @@
 - No fim do dia, o ar foi **desligado pelo controle**: o Arduino ainda acha que ele está ligado. **Apertar RESET na placa** para sincronizar.
 
 ## Próximos passos
-1. **Recapturar o LIGAR** com o controle em **Dry, 20–21 °C e swing ativado**. O comando atual é de 27 °C: com a sala abaixo disso, o compressor não liga e a umidade sobe. Depois, trocar o `CMD_LIGAR`.
+1. ~~Recapturar o LIGAR~~ **Feito em 2026-11-14:** `CMD_LIGAR` agora é Dry, 22 °C, com o flap oscilando. Falta confirmar na prática se o compressor liga e se a umidade absoluta cai.
 2. Acrescentar a **umidade absoluta (g/m³)** no monitor:
    `float absoluta = 6.112 * exp(17.67 * temp / (temp + 243.5)) * umidade * 2.1674 / (273.15 + temp);`
 3. Avaliar mudar `UMIDADE_DESLIGA` de 45 para **50 %**, porque 45 % pode nunca ser alcançado.
