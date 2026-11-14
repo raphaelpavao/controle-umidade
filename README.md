@@ -39,9 +39,9 @@ O LED IR **precisa** ficar no pino 3, porque é o pino que a biblioteca IRremote
 
 ### Esquema elétrico
 
-![Esquema elétrico do circuito](docs/esquema.png)
+![Esquema elétrico do circuito](docs/esquema.jpg)
 
-No desenho, o sensor aparece como DHT22, que tem os mesmos pinos do DHT11.
+No desenho, o sensor aparece como DHT22, que tem os mesmos pinos do DHT11. O arquivo editável do Fritzing está em [docs/controle-umidade.fzz](docs/controle-umidade.fzz).
 
 ### Diagrama de conexões
 
