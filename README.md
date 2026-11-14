@@ -37,6 +37,14 @@ O Arduino lê um sensor DHT11 e controla o ar por **infravermelho**, imitando o 
 
 O LED IR **precisa** ficar no pino 3, porque é o pino que a biblioteca IRremote usa para gerar a portadora de 38 kHz no UNO.
 
+### Esquema elétrico
+
+![Esquema elétrico do circuito](docs/esquema.png)
+
+No desenho, o sensor aparece como DHT22, que tem os mesmos pinos do DHT11.
+
+### Diagrama de conexões
+
 ```mermaid
 flowchart LR
     subgraph UNO["Arduino UNO"]
